@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City University</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="#"><img src="logo_all.png" alt="logo"></a>
+        <div class="nav-link"id="navlink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index1.html">Home</a></li>
+                <li><a href="index2.html">About </a></li>
+                <li><a href="index3.html">Course</a></li>
+                <li><a href="index4.html">Blog</a></li>
+                <li><a href="index5.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+     <h1>About Us</h1>
+    </section>
+    <!-- about us content -->
+ <section class="about-us">
+    <div class="row">
+    <div class="about-col">
+     <h1>Budget friendly private university</h1>
+     <p>City University is a private university in Bangladesh approved by the University Grants Commission (UGC). Since its establishment, the university has been committed to providing quality education through modern facilities, skilled faculty, and a student-centered environment. It offers a wide range of undergraduate and postgraduate programs, aiming to develop knowledgeable, skilled, and ethical professionals for the future. Located in a peaceful and accessible area, City University maintains a safe and inclusive campus for all students. 
+
+The university’s mission is to make higher education affordable without compromising on quality. Students benefit from modern classrooms, well-equipped laboratories, and an extensive digital library. A dedicated team of faculty members and academic advisors support students throughout their academic journey. City University also provides career guidance, internships, and job placement assistance to prepare graduates for real-world challenges.
+
+Various clubs, seminars, and cultural events help students develop leadership, communication, and teamwork skills. Separate residential halls for male and female students ensure a secure and comfortable living environment. A well-organized bus service connects the university to key locations in Dhaka and nearby areas. By maintaining strong industry-academic partnerships, City University ensures that its graduates are job-ready, confident, and competitive in the global job market.
+</p></p>
+     <a href="" class="hero red">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="l2.jpg" alt="l2">
+    </div>
+
+ </div>
+ </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>City University is committed to providing quality higher education with a focus on innovation, research, and real-world skills. 
+        Our dedicated faculty, modern facilities, and student-centered approach make us one of the leading private universities in Bangladesh.</p>
+        <div class="icon">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+</div>
+<p>Made with <i class="fa-solid fa-heart"></i>by easy mathod.
+</p>
+
+
+    </section>
+
+ 
+
+
+
+    <!-- javaScript for toogle Menu-->
+
+    <script>
+        var navlink=document.getElementById("navlink");
+        function showMenu(){
+            navlink.style.right="0";
+        }
+        function hideMenu(){
+            navlink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

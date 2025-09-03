@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City University</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+        <a href="#"><img src="logo_all.png" alt="logo"></a>
+        <div class="nav-link"id="navlink">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+               <li><a href="index1.html">Home</a></li>
+                <li><a href="index2.html">About </a></li>
+                <li><a href="index3.html">Course</a></li>
+                <li><a href="index4.html">Blog</a></li>
+                <li><a href="index5.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+     <h1>Our Courses</h1>
+    </section>
+    <!-- courses-->
+     <section class="course">
+        <h1>Course We offer</h1>
+        <p>CSE | TEXTILE | MECHANICAL | EEE | BBA | LLB | AGRICULTURE</p>
+        <div class="row">
+           <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>
+               City University offers diploma and HSC-level foundation programs to help students transition into undergraduate studies smoothly.
+            </p>
+
+           </div>
+           <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+               Popular undergraduate programs include B.Sc. in CSE, EEE, Mechanical & Textile Engineering, BBA, LLB, and English Literature. 
+            </p>
+
+           </div>
+           <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>
+                The university offers Master's degrees in Business Administration (MBA), Law, English, and Engineering disciplines for career advancement.
+            </p>
+
+           </div>
+        </div>
+
+
+     </section>
+
+     <!-- facilities -->
+      <section class="facilities">
+        <h1>Our Facilities </h1>
+        <p>City University provides a wide range of facilities to support student success and well-being. These include smart classrooms, well-equipped laboratories, a digital library, high-speed Wi-Fi, and career counseling services. For comfortable accommodation, there are separate residential halls for male and female students. Additionally, the university offers dedicated bus services across Dhaka, ensuring safe and easy transportation.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="female hall.jpg" alt="female hall">
+                
+                    <h4>Residential Hall</h4>
+                <p>The university offers secure and comfortable residential halls for both male and female students to ensure a homely environment.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="lab.jpeg" alt="lab">
+                
+                    <h4>Well-Equipped Lab</h4>
+                <p>City University features modern labs with updated tools and technology to enhance practical learning and research.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="bus.jpeg" alt="bus">
+        
+                    <h4>Student's Bus</h4>
+                <p>Dedicated student bus services cover various routes across Dhaka, ensuring safe and convenient daily commutes.</p>
+
+            </div>
+        
+        </div>
+
+     </section>
+ 
+
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>City University is committed to providing quality higher education with a focus on innovation, research, and real-world skills. 
+        Our dedicated faculty, modern facilities, and student-centered approach make us one of the leading private universities in Bangladesh.</p>
+        <div class="icon">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-linkedin-in"></i>
+</div>
+<p>Made with <i class="fa-solid fa-heart"></i>by easy mathod.
+</p>
+
+
+    </section>
+
+ 
+
+
+
+    <!-- javaScript for toogle Menu-->
+
+    <script>
+        var navlink=document.getElementById("navlink");
+        function showMenu(){
+            navlink.style.right="0";
+        }
+        function hideMenu(){
+            navlink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
